@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header{
+      
+      height:50px;
+      background-color: black;
+      text-align: right;
+      margin: -13px;
+      padding: -5px;
+  }
+  
+  footer {
+    height: 50px;
+    background-color: #ff9900;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px -5px 5px 0px rgba(0,0,0,0.75);
+  }
+  
+  .bg-image{
+    margin: -15px;
+    background-image: url('storage/truck.png'); 
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-position: top;
+    background-position: right;
+    height: 1500px;
+    resize: both;
+    padding: 1px;
+    box-shadow: 0px -200px 20px 0 white inset;
+    
+  }
+  
+   .emptyspace{
+  padding: 200px;
+   }
+  
+   .infospace{
+    background-color: #f0ffff; /* Use a light blue color for the info space */
+    background-size: cover;
+    height: 800px;
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+  }
+  
+  .aboutus {
+      padding: 50px;
+    margin-top: 50px;
+    position: relative;
+    background-color: #f7d794; /* Retro yellow */
+    border: 5px solid #6d4c41; /* Retro brown */
+  }
+  
+  .pic1 {
+    width: 25%;
+    position: absolute;
+    top: 1800px;
+    right: 50px;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 0 black;
+    transition: all 0.5s ease;
+    background-color: #ff9ff3; /* Retro pink */
+  }
+  
+  .pic1:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 20px 0 black;
+    background-color: #e056fd; /* Retro purple */
+  }
+  
+   .h31{
+      font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+   }
+  
+   #calendar {
+    border: 5px solid #ff9900;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  #calendar-container {
+    float: left;
+    background-color: #bfbfbf;
+    height: 800px;
+    width: 60%; 
+    margin-right: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+  }
+  .round-button {
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+  }
