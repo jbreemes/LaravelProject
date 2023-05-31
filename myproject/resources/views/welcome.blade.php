@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     start: '{{ $event->start_time }}',
                     end: '{{ $event->end_time }}',
-                    url: "{{ route('afspraak.show', ['idAfspraak' => $event->idAfspraak, 'Klant_idKlant' => $event->Klant_idKlant, 'Admin_idAdmin' => $event->Admin_idAdmin]) }}"
 
                 },
             @endforeach
@@ -80,6 +79,22 @@ header ul li a:hover {
   justify-content: space-between;
   padding: 10px;
   box-shadow: 0 2px 2px -2px gray;
+}
+
+.auth-buttons a {
+  background-color: #CD5C5C;
+  border: none;
+  border-radius: 5px;
+  color: white;
+ 
+  margin-top: 20px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.auth-buttons a:hover {
+ text-decoration: underline;
 }
 
 /* Title styles */
@@ -420,7 +435,7 @@ footer .text-center {
 Bij WemoveIt begrijpen we dat verhuizen een van de meest stressvolle gebeurtenissen in iemands leven kan zijn. 
 Daarom hebben we ons bedrijf opgericht met het doel om het verhuisproces eenvoudiger en efficiënter te maken voor onze klanten. 
 We zijn er trots op dat we ons kunnen aanpassen aan de unieke behoeften van elke klant en hun verhuiservaring op maat kunnen maken. <br>
-<button> Maak een afspraak </button></h3>
+<button onClick="document.getElementById('calendar-container').scrollIntoView();"> Maak een afspraak </button></h3>
 </div>
 
 
