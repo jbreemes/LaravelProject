@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: '{{ $event->title }}',
                     start: '{{ $event->start_time }}',
                     end: '{{ $event->end_time }}',
-                    url: "{{ route('afspraak.show', ['idAfspraak' => $event->idAfspraak, 'Klant_idKlant' => $event->Klant_idKlant, 'Admin_idAdmin' => $event->Admin_idAdmin]) }}"
+                    
 
                 },
             @endforeach
