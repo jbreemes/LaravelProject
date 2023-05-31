@@ -18,8 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     name: '{{ $event->name }}',
                     start: '{{ $event->start_time }}',
                     end: '{{ $event->end_time }}',
-                    url: "{{ route('afspraak.show', ['idAfspraak' => $event->idAfspraak, 'Klant_idKlant' => $event->Klant_idKlant, 'Admin_idAdmin' => $event->Admin_idAdmin, 'employee_id' => $event->employee_id]) }}",
-                    extendedProps: { name: '{{ $event->name }}' }
                 },
             @endforeach
         ],        
